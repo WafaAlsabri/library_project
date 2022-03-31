@@ -1,12 +1,13 @@
 <?php
-  
+  component('head');
+  component('app-access-roles');
 
 ?>
 
     <div class="container ">
         <div class="row add_post">
             
-            <h3>Add Post</h3>
+            <h3>Add Category</h3>
             <form class="col-md-8 col-sm-12 form" method="post" action="<?php echo BASEURL;?>admin/insert" enctype= multipart/form-data>
             <?php
                 if(isset($_SESSION['flash'])):
