@@ -9,8 +9,10 @@
 	content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
 <title>Avni - Bootstrap 5 Admin Template</title>
 <link rel="stylesheet" type="text/css" href="<?php echo BASEURL;?>assets/css/all.min.css">
+<link href='http://fonts.googleapis.com/css?family=Cookie'
+	rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="<?php echo BASEURL;?>assets/css/bootstrap.css" />
-<link rel="stylesheet" href="<?php echo BASEURL;?>assets/css/main3.css" />
+<link rel="stylesheet" href="<?php echo BASEURL;?>assets/css/main4.css" />
 </head>
 <body class="d-flex flex-column h-100">
 	<div class="page-wrapper sidebar-theme sidebartoggled">
@@ -45,16 +47,19 @@
 						<!--<li class="header-menu"><span>General</span></li> -->
 						<li class="sidebar-dropdown"><a href="#"
 							class="toggledropdownbtn"> <i class="fa fa-tachometer-alt"></i>
-								<span>Dashboards</span> <span class="badge badge-pill bg-warning">New</span>
+								<span>Dashboards</span> <span
+								class="badge badge-pill bg-warning">New</span>
 						</a>
 							<div class="sidebar-submenu">
 								<ul>
-									<li><a href="index.html"> <i class="fa fa-cog"></i><span>Dashboard 1</span>
-											<span class="badge badge-pill bg-success">Pro</span>
+									<li><a href="index.html"> <i class="fa fa-cog"></i><span>Dashboard
+												1</span> <span class="badge badge-pill bg-success">Pro</span>
 									</a></li>
-									<li><a href="index2.html"> <i class="fa fa-cog"></i> <span>Dashboard 2</span>
+									<li><a href="index2.html"> <i class="fa fa-cog"></i> <span>Dashboard
+												2</span>
 									</a></li>
-									<li><a href="index3.html"> <i class="fa fa-cog"></i> <span>Dashboard 3</span>
+									<li><a href="index3.html"> <i class="fa fa-cog"></i> <span>Dashboard
+												3</span>
 									</a></li>
 								</ul>
 							</div></li>
@@ -102,21 +107,88 @@
 
 					</ul>
 				</div>
+
+				<aside class="sidebar-left-collapse">
+					<div class="sidebar-links">
+
+						<div class="link-red ddmenu selected">
+							<a href="<?php echo BASEURL;?>admin/dashboard"> <i class="fa fas fa-home"></i>Categories
+							</a>
+						</div>
+						<div class="link-red ddmenu selected">
+							<a href="<?php echo BASEURL;?>admin/addPost"> <i class="fa fas fa-home"></i>Add Categories
+							</a>
+						</div>
+
+						<div class="link-blue ddmenu">
+
+							<a href="#"> <i class="fa far fa-image"></i>Photography
+							</a>
+
+							<ul class="sub-links">
+								<li><a href="#">Portraits</a></li>
+								<li><a href="#">Landscape</a></li>
+								<li><a href="#">Studio shots</a></li>
+								<li><a href="#">Macros</a></li>
+							</ul>
+
+						</div>
+
+						<div class="link-red ddmenu">
+
+							<a href="#"><i class="fa fas fa-cog"></i>Favorites </a>
+
+							<ul class="sub-links">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><a href="#">Link 3</a></li>
+								<li><a href="#">Link 4</a></li>
+							</ul>
+
+						</div>
+
+						<div class="link-yellow ddmenu">
+
+							<a href="#"> <i class="fa fas fa-tools"></i>Projects
+							</a>
+
+							<ul class="sub-links">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><a href="#">Link 3</a></li>
+								<li><a href="#">Link 4</a></li>
+							</ul>
+
+						</div>
+
+						<div class="link-green ddmenu">
+
+							<a href="#"> <i class="fa fas fa-user-cog"></i>Places
+							</a>
+
+							<ul class="sub-links">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><a href="#">Link 3</a></li>
+								<li><a href="#">Link 4</a></li>
+							</ul>
+
+						</div>
+
+						<div class="link-red ddmenu">
+
+							<a href="#"> <i class="fa fas fa-th-large"></i>SomeOther
+							</a>
+
+
+						</div>
+
+					</div>
+				</aside>
 				<!-- sidebar-menu  -->
 			</div>
 			<!-- sidebar-content  -->
-			<div class="sidebar-footer">
-				<a href="#" class="tobehidden"> <i style="color: white;"
-					class="fa fa-bell"></i> <span
-					class="badge badge-pill bg-danger notification">13</span>
-				</a> <a href="#" class="tobehidden mx-3"> <i style="color: white;"
-					class="fa fa-envelope"></i> <span
-					class="badge badge-pill bg-primary notification">17</span>
-				</a> <a href="#" class="tobehidden mx-2"> <i style="color: white;"
-					class="fa fa-cog"></i> <span class="badge-sonar"></span>
-				</a> <a href="#"> <i style="color: #ff5500;" class="fa fa-power-off"></i>
-				</a>
-			</div>
+		
 		</nav>
 
 
@@ -231,8 +303,7 @@
 											height="30" width="30" alt="User picture"></a>
 										<ul class="dropdown-menu dropdown-menu-end"
 											aria-labelledby="dropdown01">
-											<li><a href="profile.html"
-												class="dropdown-item mt-2"><i
+											<li><a href="profile.html" class="dropdown-item mt-2"><i
 													class="far fa-id-badge mx-2"></i> Profile</a></li>
 											<li><a href="#" class="dropdown-item mt-2"><i
 													class="far fa-comments mx-2"></i>Messages</a></li>
@@ -253,13 +324,11 @@
 
 		
 
-
 		</div>
 	</div>
 
 </body>
 
 <script src="<?php echo BASEURL;?>assets/js/bootstrap.bundle.min.js"></script>
-<script src="<?php echo BASEURL;?>assets/js/script3.js"></script>
-
+<script src="<?php echo BASEURL;?>assets/js/script4.js"></script>
 </html>

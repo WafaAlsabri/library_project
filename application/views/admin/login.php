@@ -1,6 +1,6 @@
 <?php
-    component('header');
-    component('admin_navbar');
+    component('head');
+    
 ?>
 
     <div class="container ">

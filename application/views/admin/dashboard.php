@@ -1,5 +1,7 @@
 <?php
-  
+    
+    component('app-access-roles');
+    component('head');
 ?>
 
     <div class="container ">
@@ -10,7 +12,7 @@
                     unset($_SESSION['flash']);
                 endif;
             ?>
-            <h3>All categories</h3>
+            <h3>All Categories</h3>
             <table class="table table-responsiv" >
                 <thead >
                     <tr>
@@ -20,11 +22,7 @@
                         <th scope="col" style="width:40%">status</th>
                         <th scope="col" style="width:20%">created_at</th>
                         <th scope="col" style="width:20%">updated_at</th>
-                        <th scope="col" style="width:20%"><h5 style="color: red;
-    top: 1em;
-    position: relative;
-    right: -3em;
-    }">Operation</h5></th>
+                        <th scope="col" style="width:20%">Operation</th>
                     </tr>
                 </thead>
                 <tbody>

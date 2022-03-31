@@ -1,5 +1,6 @@
 <?php
-   
+   component('head');
+   component('app-access-roles');
 ?>
 
     <div class="container ">
